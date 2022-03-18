@@ -19,6 +19,7 @@ public class AdminPage {
 	private Dbcon db = new Dbcon();
 	private JFrame frame;
 
+	
 	/**
 	 * Launch the application.
 	 */

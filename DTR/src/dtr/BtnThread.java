@@ -3,6 +3,8 @@ package dtr;
 public class BtnThread{
 	Dtr dtr = new Dtr();
 	
+	 
+	
 //	@Override
 //	public void run() {
 //		
