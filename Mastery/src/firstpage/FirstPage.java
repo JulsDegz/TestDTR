@@ -1,11 +1,11 @@
-package dtr;
-// NOTE ---- BEWARE OF THE METHODS SEQUENCE ---- 
-import java.awt.EventQueue;
+package firstpage;
 
+import java.awt.EventQueue;
 import javax.swing.JFrame;
 
-public class EmployeeEdit {
+public class FirstPage {
 
+   // private Dbcon db = new Dbcon();
 	private JFrame frame;
 
 	/**
@@ -15,7 +15,7 @@ public class EmployeeEdit {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
-					EmployeeEdit window = new EmployeeEdit();
+					FirstPage window = new FirstPage();
 					window.frame.setVisible(true);
 				} catch (Exception e) {
 					e.printStackTrace();
@@ -27,7 +27,7 @@ public class EmployeeEdit {
 	/**
 	 * Create the application.
 	 */
-	public EmployeeEdit() {
+	public FirstPage() {
 		initialize();
 	}
 
@@ -36,7 +36,7 @@ public class EmployeeEdit {
 	 */
 	private void initialize() {
 		frame = new JFrame();
-		frame.setBounds(100, 100, 738, 528);
+		frame.setBounds(100, 100, 450, 300);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 	}
 

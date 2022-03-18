@@ -1,5 +1,5 @@
-package dtr;
-// NOTE ---- BEWARE OF THE METHODS SEQUENCE ---- 
+package firstpage;
+//NOTE ---- BEWARE OF THE METHODS SEQUENCE ---- 
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -15,12 +15,16 @@ public class Dbcon {
 	
 	
 	public void dbCon() {
+
 		try {
+
 			Class.forName("com.mysql.cj.jdbc.Driver");
 			con = DriverManager.getConnection("jdbc:mysql://localhost:3306/empdb", "root", "");
 
 		} catch (ClassNotFoundException | SQLException e) {
+			
 			// TODO Auto-generated catch block
+			
 			e.printStackTrace();
 		}
 	}
